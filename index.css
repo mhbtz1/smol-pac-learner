@@ -1,0 +1,29 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(5, 15vh);
+    grid-template-rows: repeat(5, 15vw);
+}
+
+.x-axis {
+    grid-column: 0;
+    grid-row: 3;
+    width: 100vw;
+    height: 2px;
+    background-color:black
+}
+
+.y-axis {
+    grid-column: 5;
+    grid-row: 0;
+    width: 2px;
+    height: 100vh;
+    background-color:black
+}
+
+.point {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%; /* Makes the div a circle */
+    position: absolute; /* Allows positioning anywhere on the page */
+}
