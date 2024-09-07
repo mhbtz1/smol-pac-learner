@@ -57,8 +57,8 @@ class PACLearner {
         const rectangle = document.createElement("div")
         rectangle.classList.add('rectangle')
         // Randomize width, height, and position
-        const randomWidth = Math.random() * 250 + 50;  // Random width between 50px and 300px
-        const randomHeight = Math.random() * 250 + 50; // Random height between 50px and 300px
+        const randomWidth = Math.random() * 450 + 50;  // Random width between 50px and 300px
+        const randomHeight = Math.random() * 450 + 50; // Random height between 50px and 300px
         const randomTop = Math.random() * (container.clientHeight - randomHeight);  // Random top position
         const randomLeft = Math.random() * (container.clientWidth - randomWidth);   // Random left position
         // Apply random width, height, and position to the rectangle
